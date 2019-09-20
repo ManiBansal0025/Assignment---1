@@ -1,0 +1,14 @@
+/*Create a class named 'Student' with String variable 'name'and integer variable 'roll_no'.
+Assign the value of roll_no as '101' and that of name as "Aman" by creating an object of the class Student.*/
+
+class Student 
+{
+	String name;
+	int roll_no;
+	public static void main(String[] args) 
+	{
+		Student obj = new Student( );
+		System.out.println(obj.name = "Aman");
+		System.out.println(obj.roll_no = 101);
+	}
+}
